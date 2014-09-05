@@ -7,6 +7,15 @@ using UnityEngine;
 
 namespace RuntimeScriptInspector
 {
+    /* 
+     *  ComponentInfo
+     *  
+     *  a structure that holds information
+     *  and gui states of a MonoBehavior
+     *  
+     *  written by Alican Şekerefe
+    */
+
     public struct ComponentInfo
     {
         public MonoBehaviour component;
