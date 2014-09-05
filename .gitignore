@@ -1,0 +1,8 @@
+*.csproj
+*.unity
+*.meta
+Assets/Test.cs
+Library
+ProjectSettings
+*.sln
+*.suo
