@@ -184,7 +184,6 @@ namespace RuntimeScriptInspector
                         drawTitle("Methods (" + methods.Count+")", 10, false, true, true);
                         for (int j = 0; j < methods.Count; j++)
                             drawMethodCaller(component, methods[j] as MethodInfo);
-
                     }
 
                     GUILayout.Space(20f);
@@ -194,7 +193,7 @@ namespace RuntimeScriptInspector
         }
 
         //returns true if the given type is supported (more will come)
-        private bool isValueType(Type type)
+        private bool isBasicType(Type type)
         {
             return  type == typeof(int) ||
                     type == typeof(float) ||
